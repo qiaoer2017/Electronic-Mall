@@ -2,9 +2,8 @@
 /*全站公共样式*/
 
 body {
-    font: 12px/150% Arial, Verdana;
+    font: 11px/150% Arial, Verdana;
     color: #666;
-    background-color: #f7f7f7;
 }
 
 a {
@@ -33,6 +32,10 @@ a {
     clear: both;
 }
 
-.hide{
+.hide {
     display: none;
+}
+
+#header {
+    background: #f7f7f7;
 }
