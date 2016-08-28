@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*全站公共样式*/
+
+body {
+    font: 12px/150% Arial, Verdana;
+    color: #666;
+    background-color: #f7f7f7;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+.wrapper-fluid {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.hide{
+    display: none;
+}

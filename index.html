@@ -1,10 +1,357 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="慕课 慕课商城">
+    <meta name="author" content="qiaoer">
     <title>慕课商城</title>
+    <link href="http://cdn.bootcss.com/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
 </head>
 <body>
+<div id="header">
+    <div class="wrapper">
+        <div class="top-bar">
+            <div class="left">
+                <span class="collect"><a href="#">收藏慕课</a></span>
+            </div>
+            <div class="right">
+                <span>欢迎来到慕课商城！[<a href="#">登录</a>][<a href="#">注册</a>]</span>
+            </div>
+        </div>
+    </div>
+    <div class="logo-bar">
+        <div class="wrapper-fluid">
+            <div class="wrapper">
+                <div class="logo left">
+                    <a href="#"><img src="img/logo.jpg" alt="慕课商城" width="114" height="61"></a>
+                </div>
+                <div class="search left">
+                    <input type="text" class="key" name="key" id="key"><input type="button" class="search-button"
+                                                                              value="搜索">
+                </div>
+                <div class="shopping-cart right">
+                    <span class="cart"><a href="#">购物车</a></span>
+                    <span class="count"><a href="#">0</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav clearfix">
+        <div class="wrapper-fluid">
+            <div class="wrapper">
+                <h3>全部商品分类<span class="drop-down"></span></h3>
+                <div class="categories">
+                    <dl>
+                        <dt><a href="#">手机</a><a href="#">数码</a><a href="#" class="special">合约机</a></dt>
+                        <span>&gt;</span>
+                        <dd><a href="#">荣耀3X</a><a href="#">单反</a><a href="#">智能设备</a></dd>
 
+                    </dl>
+                    <dl>
+                        <dt><a href="#">电脑</a><a href="#">硬件外设</a><a href="#" class="special">装机宝</a></dt>
+                        <span>&gt;</span>
+                        <dd><a href="#">笔记本</a><a href="#">台式机</a><a href="#">超极本</a><a href="#">平板</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">大家电</a></dt>
+                        <span>&gt;</span>
+                        <dd><a href="#">电视</a><a href="#">空调</a><a href="#">冰箱</a><a href="#">洗衣机</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">厨房电器</a><a href="#">生活电器</a></dt>
+                        <span>&gt;</span>
+                        <dd><a href="#">空气进化器</a><a href="#">微波炉</a><a href="#">取暖设备</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">食品/数码/生鲜</a><a href="#" class="special">粮油</a></dt>
+                        <span>&gt;</span>
+                        <dd><a href="#">进口</a><a href="#">方便面</a><a href="#">零食</a><a href="#">保健</a></dd>
+                    </dl>
+
+                </div>
+                <div class="sub-categories">
+                    <div class="sub-category hide">
+                        <dl>
+                            <dt>电脑整机1</dt>
+                            <dd><a href="#">笔记本</a><a href="#">游戏本</a><a href="#">平板电脑</a><a href="#">平板电脑配件</a><a
+                                    href="#">台式机</a><a href="#">一体机</a><a href="#">服务器/工作站</a><a href="#">笔记本配件</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>装机配件</dt>
+                            <dd><a href="#">CPU</a><a href="#">硬盘</a><a href="#">SSD固态硬盘</a><a href="#">内存</a><a
+                                    href="#">显示器</a><a href="#">智能显示器</a><a href="#">主板</a><a href="#">显卡</a><a
+                                    href="#">机箱</a><a
+                                    href="#">电源</a><a href="#">散热器</a><a href="#">刻录机/光驱</a><a href="#">声卡</a><a
+                                    href="#">扩展卡</a><a
+                                    href="#">服务器配件</a><a href="#">DIY小附件</a><a href="#">装机/配件安装</a></dd>
+                        </dl>
+
+                        <dl>
+                            <dt>装机配件</dt>
+                            <dd><a href="#">CPU</a><a href="#">硬盘</a><a href="#">SSD固态硬盘</a><a href="#">内存</a><a
+                                    href="#">显示器</a><a href="#">智能显示器</a><a href="#">主板</a><a href="#">显卡</a><a
+                                    href="#">机箱</a><a
+                                    href="#">电源</a><a href="#">散热器</a><a href="#">刻录机/光驱</a><a href="#">声卡</a><a
+                                    href="#">扩展卡</a><a
+                                    href="#">服务器配件</a><a href="#">DIY小附件</a><a href="#">装机/配件安装</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>装机配件</dt>
+                            <dd><a href="#">CPU</a><a href="#">硬盘</a><a href="#">SSD固态硬盘</a><a href="#">内存</a><a
+                                    href="#">显示器</a><a href="#">智能显示器</a><a href="#">主板</a><a href="#">显卡</a><a
+                                    href="#">机箱</a><a
+                                    href="#">电源</a><a href="#">散热器</a><a href="#">刻录机/光驱</a><a href="#">声卡</a><a
+                                    href="#">扩展卡</a><a
+                                    href="#">服务器配件</a><a href="#">DIY小附件</a><a href="#">装机/配件安装</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>电脑整机</dt>
+                            <dd><a href="#">笔记本</a><a href="#">游戏本</a><a href="#">平板电脑</a><a href="#">平板电脑配件</a><a
+                                    href="#">台式机</a><a href="#">一体机</a><a href="#">服务器/工作站</a><a href="#">笔记本配件</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>电脑整机</dt>
+                            <dd><a href="#">笔记本</a><a href="#">游戏本</a><a href="#">平板电脑</a><a href="#">平板电脑配件</a><a
+                                    href="#">台式机</a><a href="#">一体机</a><a href="#">服务器/工作站</a><a href="#">笔记本配件</a>
+                            </dd>
+                        </dl>
+                        <div class="channels">
+                            <span><a href="#">电脑整机频道</a><span>&gt;</span></span><span><a
+                                href="#">硬件/外设频道</a><span>&gt;</span></span>
+                        </div>
+
+                    </div>
+                    <div class="sub-category hide">
+                        <dl>
+                            <dt>电脑整机2</dt>
+                            <dd><a href="#">笔记本</a><a href="#">游戏本</a><a href="#">平板电脑</a><a href="#">平板电脑配件</a><a
+                                    href="#">台式机</a><a href="#">一体机</a><a href="#">服务器/工作站</a><a href="#">笔记本配件</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>装机配件</dt>
+                            <dd><a href="#">CPU</a><a href="#">硬盘</a><a href="#">SSD固态硬盘</a><a href="#">内存</a><a
+                                    href="#">显示器</a><a href="#">智能显示器</a><a href="#">主板</a><a href="#">显卡</a><a
+                                    href="#">机箱</a><a
+                                    href="#">电源</a><a href="#">散热器</a><a href="#">刻录机/光驱</a><a href="#">声卡</a><a
+                                    href="#">扩展卡</a><a
+                                    href="#">服务器配件</a><a href="#">DIY小附件</a><a href="#">装机/配件安装</a></dd>
+                        </dl>
+
+                        <dl>
+                            <dt>电脑整机</dt>
+                            <dd><a href="#">笔记本</a><a href="#">游戏本</a><a href="#">平板电脑</a><a href="#">平板电脑配件</a><a
+                                    href="#">台式机</a><a href="#">一体机</a><a href="#">服务器/工作站</a><a href="#">笔记本配件</a>
+                            </dd>
+                        </dl>
+                        <div class="channels">
+                            <span><a href="#">电脑整机频道</a><span>&gt;</span></span><span><a
+                                href="#">硬件/外设频道</a><span>&gt;</span></span>
+                        </div>
+
+                    </div>
+                    <div class="sub-category hide">
+                        <dl>
+                            <dt>电脑整机3</dt>
+                            <dd><a href="#">笔记本</a><a href="#">游戏本</a><a href="#">平板电脑</a><a href="#">平板电脑配件</a><a
+                                    href="#">台式机</a><a href="#">一体机</a><a href="#">服务器/工作站</a><a href="#">笔记本配件</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>装机配件</dt>
+                            <dd><a href="#">CPU</a><a href="#">硬盘</a><a href="#">SSD固态硬盘</a><a href="#">内存</a><a
+                                    href="#">显示器</a><a href="#">智能显示器</a><a href="#">主板</a><a href="#">显卡</a><a
+                                    href="#">机箱</a><a
+                                    href="#">电源</a><a href="#">散热器</a><a href="#">刻录机/光驱</a><a href="#">声卡</a><a
+                                    href="#">扩展卡</a><a
+                                    href="#">服务器配件</a><a href="#">DIY小附件</a><a href="#">装机/配件安装</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>电脑整机</dt>
+                            <dd><a href="#">笔记本</a><a href="#">游戏本</a><a href="#">平板电脑</a><a href="#">平板电脑配件</a><a
+                                    href="#">台式机</a><a href="#">一体机</a><a href="#">服务器/工作站</a><a href="#">笔记本配件</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>电脑整机</dt>
+                            <dd><a href="#">笔记本</a><a href="#">游戏本</a><a href="#">平板电脑</a><a href="#">平板电脑配件</a><a
+                                    href="#">台式机</a><a href="#">一体机</a><a href="#">服务器/工作站</a><a href="#">笔记本配件</a>
+                            </dd>
+                        </dl>
+                        <div class="channels">
+                            <span><a href="#">电脑整机频道</a><span>&gt;</span></span><span><a
+                                href="#">硬件/外设频道</a><span>&gt;</span></span>
+                        </div>
+
+                    </div>
+                    <div class="sub-category hide">
+                        <dl>
+                            <dt>电脑整机4</dt>
+                            <dd><a href="#">笔记本</a><a href="#">游戏本</a><a href="#">平板电脑</a><a href="#">平板电脑配件</a><a
+                                    href="#">台式机</a><a href="#">一体机</a><a href="#">服务器/工作站</a><a href="#">笔记本配件</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>装机配件</dt>
+                            <dd><a href="#">CPU</a><a href="#">硬盘</a><a href="#">SSD固态硬盘</a><a href="#">内存</a><a
+                                    href="#">显示器</a><a href="#">智能显示器</a><a href="#">主板</a><a href="#">显卡</a><a
+                                    href="#">机箱</a><a
+                                    href="#">电源</a><a href="#">散热器</a><a href="#">刻录机/光驱</a><a href="#">声卡</a><a
+                                    href="#">扩展卡</a><a
+                                    href="#">服务器配件</a><a href="#">DIY小附件</a><a href="#">装机/配件安装</a></dd>
+                        </dl>
+
+                        <dl>
+                            <dt>装机配件</dt>
+                            <dd><a href="#">CPU</a><a href="#">硬盘</a><a href="#">SSD固态硬盘</a><a href="#">内存</a><a
+                                    href="#">显示器</a><a href="#">智能显示器</a><a href="#">主板</a><a href="#">显卡</a><a
+                                    href="#">机箱</a><a
+                                    href="#">电源</a><a href="#">散热器</a><a href="#">刻录机/光驱</a><a href="#">声卡</a><a
+                                    href="#">扩展卡</a><a
+                                    href="#">服务器配件</a><a href="#">DIY小附件</a><a href="#">装机/配件安装</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>装机配件</dt>
+                            <dd><a href="#">CPU</a><a href="#">硬盘</a><a href="#">SSD固态硬盘</a><a href="#">内存</a><a
+                                    href="#">显示器</a><a href="#">智能显示器</a><a href="#">主板</a><a href="#">显卡</a><a
+                                    href="#">机箱</a><a
+                                    href="#">电源</a><a href="#">散热器</a><a href="#">刻录机/光驱</a><a href="#">声卡</a><a
+                                    href="#">扩展卡</a><a
+                                    href="#">服务器配件</a><a href="#">DIY小附件</a><a href="#">装机/配件安装</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>电脑整机</dt>
+                            <dd><a href="#">笔记本</a><a href="#">游戏本</a><a href="#">平板电脑</a><a href="#">平板电脑配件</a><a
+                                    href="#">台式机</a><a href="#">一体机</a><a href="#">服务器/工作站</a><a href="#">笔记本配件</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>电脑整机</dt>
+                            <dd><a href="#">笔记本</a><a href="#">游戏本</a><a href="#">平板电脑</a><a href="#">平板电脑配件</a><a
+                                    href="#">台式机</a><a href="#">一体机</a><a href="#">服务器/工作站</a><a href="#">笔记本配件</a>
+                            </dd>
+                        </dl>
+                        <div class="channels">
+                            <span><a href="#">电脑整机频道</a><span>&gt;</span></span><span><a
+                                href="#">硬件/外设频道</a><span>&gt;</span></span>
+                        </div>
+
+                    </div>
+                    <div class="sub-category hide">
+                        <dl>
+                            <dt>电脑整机5</dt>
+                            <dd><a href="#">笔记本</a><a href="#">游戏本</a><a href="#">平板电脑</a><a href="#">平板电脑配件</a><a
+                                    href="#">台式机</a><a href="#">一体机</a><a href="#">服务器/工作站</a><a href="#">笔记本配件</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>装机配件</dt>
+                            <dd><a href="#">CPU</a><a href="#">硬盘</a><a href="#">SSD固态硬盘</a><a href="#">内存</a><a
+                                    href="#">显示器</a><a href="#">智能显示器</a><a href="#">主板</a><a href="#">显卡</a><a
+                                    href="#">机箱</a><a
+                                    href="#">电源</a><a href="#">散热器</a><a href="#">刻录机/光驱</a><a href="#">声卡</a><a
+                                    href="#">扩展卡</a><a
+                                    href="#">服务器配件</a><a href="#">DIY小附件</a><a href="#">装机/配件安装</a></dd>
+                        </dl>
+
+                        <dl>
+                            <dt>装机配件</dt>
+                            <dd><a href="#">CPU</a><a href="#">硬盘</a><a href="#">SSD固态硬盘</a><a href="#">内存</a><a
+                                    href="#">显示器</a><a href="#">智能显示器</a><a href="#">主板</a><a href="#">显卡</a><a
+                                    href="#">机箱</a><a
+                                    href="#">电源</a><a href="#">散热器</a><a href="#">刻录机/光驱</a><a href="#">声卡</a><a
+                                    href="#">扩展卡</a><a
+                                    href="#">服务器配件</a><a href="#">DIY小附件</a><a href="#">装机/配件安装</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>电脑整机</dt>
+                            <dd><a href="#">笔记本</a><a href="#">游戏本</a><a href="#">平板电脑</a><a href="#">平板电脑配件</a><a
+                                    href="#">台式机</a><a href="#">一体机</a><a href="#">服务器/工作站</a><a href="#">笔记本配件</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>电脑整机</dt>
+                            <dd><a href="#">笔记本</a><a href="#">游戏本</a><a href="#">平板电脑</a><a href="#">平板电脑配件</a><a
+                                    href="#">台式机</a><a href="#">一体机</a><a href="#">服务器/工作站</a><a href="#">笔记本配件</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>电脑整机</dt>
+                            <dd><a href="#">笔记本</a><a href="#">游戏本</a><a href="#">平板电脑</a><a href="#">平板电脑配件</a><a
+                                    href="#">台式机</a><a href="#">一体机</a><a href="#">服务器/工作站</a><a href="#">笔记本配件</a>
+                            </dd>
+                        </dl>
+
+                        <div class="channels">
+                            <span><a href="#">电脑整机频道</a><span>&gt;</span></span><span><a
+                                href="#">硬件/外设频道</a><span>&gt;</span></span>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <ul>
+                    <li class="current"><a href="#">数码城</a></li>
+                    <li><a href="#">天黑黑</a></li>
+                    <li><a href="#">团购</a></li>
+                    <li><a href="#">发现</a></li>
+                    <li><a href="#">二手特卖</a></li>
+                    <li><a href="#">名品汇</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="main">
+    <div class="wrapper">
+        <div class="carousel">
+            <div class="list">
+                <a href="#"><img src="img/banner4.png" alt=""></a>
+                <a href="#"> <img src="img/banner1.png" alt=""></a>
+                <a href="#"><img src="img/banner2.png" alt=""></a>
+                <a href="#"> <img src="img/banner3.png" alt=""></a>
+                <a href="#"> <img src="img/banner4.png" alt=""></a>
+                <a href="#"> <img src="img/banner1.png" alt=""></a>
+            </div>
+            <div class="buttons">
+                <span class="on"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <a href="javascript:void(0);" id="next" class="arrow">&gt;</a>
+            <a href="javascript:void(0);" id="prev" class="arrow">&lt;</a>
+        </div>
+
+    </div>
+</div>
+
+<div id="footer">
+
+</div>
+
+
+<script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/notie.js"></script>
+<script src="js/script.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>

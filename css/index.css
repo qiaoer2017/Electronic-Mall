@@ -1,2 +1,393 @@
 @charset "UTF-8";
-/*首页公共样式*/
+/*首页样式*/
+
+.top-bar {
+    height: 30px;
+    border-bottom: #eee 1px solid;
+    line-height: 31px;
+}
+
+.top-bar .left {
+    font-weight: bold;
+    background: url("../img/icon/star.jpg") no-repeat center left;
+    padding-left: 20px;
+}
+
+.top-bar .right {
+    margin-right: 60px;
+}
+
+.top-bar a:hover {
+    color: #C81623;
+}
+
+.logo-bar {
+    height: 85px;
+    color: #fff;
+}
+
+.logo-bar .wrapper {
+
+}
+
+.logo {
+    height: 66px;
+    margin-top: 9.5px;
+    margin-left: 40px;
+}
+
+.search {
+    margin-top: 25px;
+    margin-left: 185px;
+    height: 35px;
+}
+
+input {
+    border: none;
+    height: 35px;
+    vertical-align: bottom;
+}
+
+input:focus {
+    outline: none;
+}
+
+.key {
+    width: 340px;
+
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+input[type=button] {
+    background: #ff8c00;
+    font-size: 14px;
+    color: #fff;
+    width: 70px;
+    letter-spacing: 2px;
+}
+
+input[type=button]:hover {
+    cursor: pointer;
+}
+
+.shopping-cart {
+    margin-right: 60px;
+    background: #ff8c00;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    margin-top: 25px;
+}
+
+.shopping-cart a {
+    color: #fff;
+}
+
+.shopping-cart span {
+    height: 35px;
+    display: inline-block;
+}
+
+.shopping-cart span:hover {
+    cursor: pointer;
+}
+
+.shopping-cart .cart {
+    background: url("../img/icon/cart.jpg") no-repeat center left;
+    padding: 0 5px 0 25px;
+    border-right: 1px solid #e27a00;
+}
+
+.shopping-cart .count {
+    background: url("../img/icon/down.jpg") no-repeat center right;
+    padding-right: 15px;
+    margin-left: 10px;
+}
+
+.logo, .search, .shopping-cart {
+    display: inline-block;
+}
+
+#header .logo-bar {
+    background: #1d7ad9;
+}
+
+#header .nav {
+    background: #1369c0;
+}
+
+.nav {
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+}
+
+.nav h3 {
+    display: inline-block;
+    font-weight: bold;
+    width: 190px;
+    /*background: url("../img/icon/down1.jpg") no-repeat center right;*/
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+
+.drop-down {
+    width: 11px;
+    height: 7px;
+    display: inline-block;
+    margin-left: 10px;
+    background: url("../img/icon/down1.jpg") no-repeat center;
+}
+
+.nav .wrapper {
+    position: relative;
+}
+
+.nav ul {
+    float: left;
+    cursor: pointer;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul {
+    height: 35px;
+}
+
+.nav ul li {
+    width: 100px;
+    text-align: center;
+}
+
+.nav ul li a {
+    color: #fff;
+}
+
+.current, .nav ul li:hover {
+    background: #4593fd;
+}
+
+.categories {
+    position: absolute;
+    background: #4593fd;
+    width: 190px;
+    top: 35px;
+    left: 0;
+    z-index: 100;
+}
+
+.categories dl {
+    padding: 15px 10px;
+    border-top: 1px solid #5aa1fe;
+    border-bottom: 1px solid #3487f2;
+    position: relative;
+}
+
+.categories dl:first-child {
+    border-top: none;
+}
+
+.categories dl:last-child {
+    border-bottom: none;
+}
+
+.hover {
+    background: #fff;
+
+}
+
+.categories dl a {
+    margin-right: 10px;
+    color: #fff;
+
+}
+
+.categories dl dt, .categories dl dd {
+    line-height: 25px;
+}
+
+.categories dl dt .special {
+    border-radius: 5px;
+    background: #1369c0;
+    padding: 1px 3px;
+}
+
+.categories dl span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 10px;
+    width: 10px;
+    line-height: 10px;
+    font-size: 15px;
+    margin: 22px 10px;
+}
+
+.categories dl dd a {
+    color: #c2d9f8;
+}
+
+.sub-categories {
+    position: absolute;
+    background: #fff;
+    top: 35px;
+    left: 190px;
+    color: #666;
+    z-index: 100;
+}
+
+.sub-category {
+    background: #fff;
+    /*position: absolute;*/
+    width: 570px;
+}
+
+.sub-category dl {
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 16px;
+    padding: 10px 0;
+    width: 530px;
+    margin-left: 20px;
+    /*margin-right: 23px;*/
+}
+
+.sub-category dl dt {
+    color: #4b88da;
+    font-weight: bold;
+    /*float: left;*/
+    display: inline-block;
+    vertical-align: top;
+    width: 55px;
+    line-height: 25px;
+}
+
+.sub-category dl dd {
+    /*float: left;*/
+    display: inline-block;
+    width: 450px;
+    margin-left: 20px;
+    vertical-align: top;
+    line-height: 25px;
+
+}
+
+.sub-category dl dd a {
+    color: #666;
+    margin: 0 10px 0 0;
+    display: inline-block;
+
+}
+
+.sub-category dl dd a:hover {
+    color: #5aa1fe;;
+}
+
+.sub-category .channels {
+    padding: 12px 20px;
+}
+
+.sub-category .channels > span {
+    background: #2785e6;
+    color: #fff;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.sub-category .channels > span > span {
+    margin-left: 6px;
+}
+
+.sub-category .channels > span a {
+    color: #fff;
+}
+
+#main .wrapper {
+    height: 1000px;
+    background-color: antiquewhite;
+    position: relative;
+
+}
+
+.carousel {
+    width: 810px;
+    height: 343.64px;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.list {
+    width: 4860px;
+    position: absolute;
+    left: -810px;
+    top: 0;
+}
+
+.list img {
+    max-width: 810px;
+    float: left;
+}
+
+.buttons {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    z-index: 10;
+    width: 150px;
+    height: 20px;
+    margin-left: -50px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.buttons span {
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    margin: 0 4px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.buttons span.on {
+    background: #ff7700;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    z-index: 10;
+    width: 25px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    color: #fff;
+    /*display: none;*/
+}
+.arrow:hover{
+    cursor: pointer;
+}
+.carousel:hover .arrow{
+    display: inline-block;
+}
+.carousel:hover .buttons{
+    opacity:1;
+}
+.arrow:hover{
+    background: rgba(0,0,0,0.5);
+}
+#prev {
+    left: 0;
+}
+
+#next {
+    right: 0;
+}
