@@ -374,7 +374,7 @@ input[type=button]:hover {
     background: rgba(0, 0, 0, 0.3);
     font-size: 20px;
     color: #fff;
-    /*display: none;*/
+    display: none;
 }
 
 .arrow:hover {
@@ -548,4 +548,3 @@ input[type=button]:hover {
     clear: both;
     height: 30px;
 }
-
