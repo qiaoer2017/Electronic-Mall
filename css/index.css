@@ -401,8 +401,6 @@ input[type=button]:hover {
     right: 0;
 }
 
-
-
 .products-list {
     width: 100%;
     height: 75px;
@@ -467,6 +465,10 @@ input[type=button]:hover {
     border-bottom: 1px solid #e5e5e5;
 }
 
+.item-top:hover {
+    box-shadow: 1px 1px 10px #ddd,-1px -1px 11px #ddd;
+}
+
 .item-top img {
     width: 133px;
     height: 152px;
@@ -483,8 +485,13 @@ input[type=button]:hover {
     color: #ff8c00;
     font-size: 13px;
 }
-.item-bottom{
-    height:117.1px;
+
+.item-bottom {
+    height: 117.1px;
+}
+
+.item-bottom:hover {
+    box-shadow: 1px 1px 10px #ddd,-1px -1px 11px #ddd;
 }
 
 .item-bottom img {
@@ -493,45 +500,52 @@ input[type=button]:hover {
     float: left;
 }
 
-.item-bottom div{
+.item-bottom div {
     width: 115px;
     float: right;
     margin-top: 29px;
 }
-.item-bottom .desc a{
-    color:#ff8c00;
+
+.item-bottom .desc a {
+    color: #ff8c00;
 }
 
-#footer{
-    width:100%;
-    height:225px;
+#footer {
+    width: 100%;
+    height: 225px;
     background: #d4d4d4;
     text-align: center;
 }
-#footer ul{
+
+#footer ul {
     display: inline-block;
     margin-top: 55px;
 }
 
-#footer ul li{
+#footer ul li {
     display: inline-block;
-    margin:0 2px;
+    margin: 0 2px;
 }
-#footer p{
+
+#footer p {
     line-height: 30px;
 }
-#footer p span{
-    margin:0 10px;
+
+#footer p span {
+    margin: 0 10px;
 }
-#footer p img{
-    margin:10px 5px;
+
+#footer p img {
+    margin: 10px 5px;
 }
+
 .vertical-gap10px {
     clear: both;
     height: 10px;
 }
-.vertical-gap30px{
+
+.vertical-gap30px {
     clear: both;
-    height:30px;
+    height: 30px;
 }
 
