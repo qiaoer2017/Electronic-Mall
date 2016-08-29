@@ -177,8 +177,10 @@ input[type=button]:hover {
     height: 347.19px;
     overflow: hidden;
     float: left;
-    z-index: 100;
+    z-index: 103;
+    position: relative;
     vertical-align: bottom;
+    border-bottom: #4593fd solid 1px;
 }
 
 .categories dl {
@@ -187,6 +189,7 @@ input[type=button]:hover {
     border-top: 1px solid #5aa1fe;
     border-bottom: 1px solid #3487f2;
     position: relative;
+    border-left: #4593fd 1px solid;
 }
 
 .categories dl:first-child {
@@ -240,9 +243,11 @@ input[type=button]:hover {
     background: #fff;
     /* display: inline-block; */
     /* top: 35px; */
-    left: 190px;
+    left: 189px;
     color: #666;
     z-index: 100;
+    border: #4593fd 1px solid;
+    border-top: none;
 }
 
 .sub-category {
@@ -319,7 +324,7 @@ input[type=button]:hover {
 
 .carousel {
     width: 810px;
-    height: 347.19px;
+    height: 348.19px;
     position: relative;
     float: right;
     z-index: 10;
