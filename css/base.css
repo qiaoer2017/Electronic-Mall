@@ -40,7 +40,6 @@ a {
     background: #f7f7f7;
 }
 
-
 .top-bar {
     height: 30px;
     border-bottom: #eee 1px solid;
@@ -65,7 +64,6 @@ a {
     height: 85px;
     color: #fff;
 }
-
 
 .logo {
     height: 66px;
@@ -299,6 +297,7 @@ a {
 #next {
     right: 0;
 }
+
 .vertical-gap10px {
     clear: both;
     height: 10px;
@@ -307,6 +306,43 @@ a {
 .vertical-gap30px {
     clear: both;
     height: 30px;
+}
+
+.aside {
+    float: left;
+    width: 185px;
+    border: 1px solid #d7d7d7;
+    margin-top: 10px;
+}
+
+.aside h2 {
+    text-align: center;
+    /* margin: 6px 0; */
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid #cdcdcd;
+    font-size: 14px;
+}
+
+.aside div {
+    padding: 4px 0px;
+    border-top: 1px dotted #d7d7d7;
+}
+
+.aside div.first-child {
+    border-top: none;
+}
+
+.aside h3 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px 20px;
+    margin-bottom: 5px;
+}
+
+.aside ul li a:hover {
+    color: #4593fd;
 }
 
 /*页脚*/
@@ -337,4 +373,60 @@ a {
 
 #footer p img {
     margin: 10px 5px;
+}
+
+/*产品列表*/
+.products {
+    float: right;
+    width: 810px;
+    margin-top: 15px;
+}
+
+.products ul {
+    float: right;
+    width: 100%;
+}
+
+.products ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.products ul li.top-item {
+    border-top: 2px solid #cccccc;
+}
+
+.products ul li img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.products ul li .desc:hover {
+    color: #4593fd;
+}
+
+.products ul li .star span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url("../img/icon/star2.jpg") no-repeat center center;
+}
+
+.products ul li .comment {
+    color: #096dba;
+}
+
+.products ul li p {
+    text-align: left;
+    padding: 0px 30px;
+}
+
+.products ul li .price {
+    color: #d4105a;
+}
+
+.products ul li:hover {
+    box-shadow: 1px 1px 3px #ddd, -1px -1px 3px #ddd;
 }
