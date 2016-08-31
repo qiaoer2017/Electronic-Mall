@@ -39,7 +39,7 @@
     height: 260px;
     text-align: center;
     margin-left: 4px;
-    margin-top: 10px;
+    padding-top: 35px;
 }
 
 .pictures .main-picture img {
@@ -48,7 +48,7 @@
 }
 
 .small-pictures {
-    margin: 20px 0;
+    margin: 50px 0;
 }
 
 .small-pictures ul li {
@@ -136,6 +136,7 @@
     padding: 3px;
     border: 1px solid #ccc;
     background: #fff;
+    cursor: default;
 }
 
 .parameter-choices .address span {
@@ -192,6 +193,7 @@
     line-height: 30px;
     text-align: center;
     background: #eee;
+    cursor: pointer;
 }
 
 .parameter-choices .reduce {
@@ -238,6 +240,7 @@
     padding: 15px 40px;
     display: inline-block;
     margin: 0 20px;
+    cursor: pointer;
 }
 
 .parameter-settings .action {
@@ -309,12 +312,92 @@
     margin-bottom: 10px;
 }
 
-.aside .final-buy{
+.aside .final-buy {
     margin-top: 20px;
 }
 
-.description-comment{
-    width:785px;
-    height:100px;
-    background: #000;
+.description-comment {
+    width: 785px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+
+.description-comment .menu li {
+    width: 50%;
+    float: left;
+    background: #f7f7f7;
+    height: 40px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.description-comment .menu li.active {
+    background: #1d7ad9;
+    color: #fff;
+    border-bottom: 1px solid #1d7ad9;
+}
+
+.description-comment .menu img {
+    /* margin-top: 13px; */
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.description-comment .activity {
+    width: 100%;
+    text-align: center;
+}
+
+.description-comment h4 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #1d7ad9;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.description-comment h4 span {
+    font-size: 10px;
+    color: #999;
+}
+
+.description-comment p {
+    margin: 0 20px;
+}
+
+.description-comment .line {
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+    margin-left: 19px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.description-comment .line .blue {
+    display: inline-block;
+    width: 70px;
+    height: 100%;
+    float: left;
+    background: #1e7ad9;
+}
+
+.description-comment .line .grey {
+    display: inline-block;
+    height: 100%;
+    width: 680px;
+    background: #ccc;
+    float: left;
+}
+
+.description-comment .show-picture {
+    text-align: center;
+}
+
+.description-comment .show-picture img {
+    max-width: 100%;
 }
