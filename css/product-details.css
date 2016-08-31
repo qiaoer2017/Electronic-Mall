@@ -1,0 +1,320 @@
+@charset "UTF-8";
+
+.breadcrumbs {
+    margin: 10px 0;
+}
+
+.breadcrumbs a:first-child {
+    font-weight: bold;
+}
+
+.breadcrumbs a:first-child + span {
+    font-weight: bold;
+}
+
+.breadcrumbs span {
+    margin: 0 2px;
+}
+
+.breadcrumbs a:hover {
+    color: #1d7ad9;
+}
+
+.display {
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.display .pictures {
+    width: 308px;
+}
+
+.display .parameter-settings {
+    width: 689px;
+    border-left: 1px solid #ccc;
+}
+
+.pictures .main-picture {
+    width: 300px;
+    height: 260px;
+    text-align: center;
+    margin-left: 4px;
+    margin-top: 10px;
+}
+
+.pictures .main-picture img {
+    max-width: 300px;
+    max-height: 260px;
+}
+
+.small-pictures {
+    margin: 20px 0;
+}
+
+.small-pictures ul li {
+    float: left;
+    width: 50px;
+    height: 50px;
+    outline: 1px solid #ccc;
+    cursor: pointer;
+    padding: 1px 0;
+    margin-left: 4px;
+}
+
+.small-pictures ul li.active {
+    outline: 1px solid #1d7ad9;
+}
+
+.small-pictures ul li img {
+    max-width: 50px;
+    max-height: 50px;
+
+}
+
+.small-pictures ul {
+    width: 272px;
+    text-align: center;
+    height: 52px;
+    margin: 0 auto;
+}
+
+.parameter-settings h2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 30px 20px;
+    margin-right: 10px;
+}
+
+.parameter-settings dl {
+    margin: 10px 0;
+}
+
+.parameter-settings dl dt {
+    margin-left: 20px;
+    display: inline-block;
+    width: 50px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.parameter-settings dl dd {
+    display: inline-block;
+}
+
+.parameter-settings dl dd.price {
+    color: #e01e1e;
+
+}
+
+.parameter-settings dl dd.price span {
+    font-size: 20px;
+}
+
+.parameter-settings dl dd.preferential span {
+    background: url("../img/icon/shopping.png") no-repeat center left;
+    display: inline-block;
+    width: 55px;
+    color: #fff;
+    line-height: 18px;
+    padding-left: 3px;
+    text-align: center;
+    height: 18px;
+}
+
+.parameter-settings .parameter-choices {
+    background: #f2f2f2;
+    margin: 10px;
+    padding: 10px 0;
+}
+
+.parameter-settings .parameter-choices dl dt {
+    margin-left: 10px;
+}
+
+.parameter-choices .address {
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.parameter-choices .address span {
+    display: inline-block;
+    width: 9px;
+    height: 6px;
+    background: url("../img/icon/down3.png") no-repeat center center;
+    margin: 0 2px;
+}
+
+.parameter-choices .address + span {
+    margin-left: 20px;
+}
+
+.parameter-choices ul li {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.parameter-choices .color ul li {
+
+    padding: 7px 25px;
+}
+
+.parameter-choices ul li.active {
+    border: 1px solid #1d7ad9;
+}
+
+.parameter-choices .specification ul li {
+    padding: 3px 6px;
+    margin-bottom: 8px;
+}
+
+.parameter-choices .specification {
+    vertical-align: top;
+}
+
+.parameter-choices .specification ul {
+    width: 575px;
+}
+
+.parameter-choices .spec {
+    vertical-align: top;
+}
+
+.parameter-choices .reduce, .parameter-choices .add {
+    display: inline-block;
+    width: 12px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #eee;
+}
+
+.parameter-choices .reduce {
+    border-right: 1px solid #ccc;
+}
+
+.parameter-choices .add {
+    border-left: 1px solid #ccc;
+}
+
+.parameter-choices .reduce + input {
+    width: 50px;
+    height: 25px;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+.parameter-choices .reduce + input:focus {
+    outline: none;
+}
+
+.parameter-choices .number > span:first-child {
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin-right: 20px;
+}
+
+.parameter-settings .result {
+    color: #000;
+    margin: 30px;
+}
+
+.parameter-settings .result span {
+    color: #1d7ad9;
+    margin-left: 5px;
+}
+
+.parameter-settings .action > span {
+    background: #ff8c00;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 40px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.parameter-settings .action {
+    margin-left: 100px;
+}
+
+.parameter-settings .action > span > span {
+    display: inline-block;
+    width: 23px;
+    height: 20px;
+    background: url("../img/icon/cart.jpg") no-repeat center center;
+}
+
+.parameter-settings .tips {
+    color: #999;
+    margin: 30px;
+}
+
+.aside {
+    width: 190px;
+    border: none;
+}
+
+.aside div {
+    border-top: none;
+    padding: 0;
+    border: 1px solid #ccc;
+}
+
+.aside .same-price {
+    border-top: 3px solid #1d7ad9;
+}
+
+.aside div h3 {
+    background: #f7f7f7;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.aside div ul li a {
+    display: block;
+    text-align: center;
+}
+
+.aside div ul li {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.aside div ul li img {
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.aside div ul li p {
+    text-align: left;
+}
+
+.aside div ul li p.desc {
+    margin-top: 10px;
+    color: #999;
+}
+
+.aside div ul li p.price {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.aside .final-buy{
+    margin-top: 20px;
+}
+
+.description-comment{
+    width:785px;
+    height:100px;
+    background: #000;
+}
