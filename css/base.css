@@ -308,6 +308,11 @@ a {
     height: 30px;
 }
 
+.vertical-gap10px {
+    clear: both;
+    height: 10px;
+}
+
 .aside {
     float: left;
     width: 185px;
@@ -430,3 +435,4 @@ a {
 .products ul li:hover {
     box-shadow: 1px 1px 3px #ddd, -1px -1px 3px #ddd;
 }
+

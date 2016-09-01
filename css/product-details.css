@@ -316,11 +316,15 @@
     margin-top: 20px;
 }
 
-.description-comment {
+.description-comment, .advisory {
     width: 785px;
     margin-top: 10px;
     border: 1px solid #ccc;
     padding-bottom: 30px;
+}
+
+.description-comment .menu {
+    height: 41px;
 }
 
 .description-comment .menu li {
@@ -347,12 +351,12 @@
     margin-right: 10px;
 }
 
-.description-comment .activity {
+.description .activity {
     width: 100%;
     text-align: center;
 }
 
-.description-comment h4 {
+.description h4 {
     font-size: 13px;
     font-weight: bold;
     color: #1d7ad9;
@@ -360,16 +364,16 @@
     margin-top: 20px;
 }
 
-.description-comment h4 span {
+.description h4 span {
     font-size: 10px;
     color: #999;
 }
 
-.description-comment p {
+.description p {
     margin: 0 20px;
 }
 
-.description-comment .line {
+.description .line {
     display: inline-block;
     height: 2px;
     width: 100%;
@@ -378,7 +382,7 @@
     margin-bottom: 12px;
 }
 
-.description-comment .line .blue {
+.description .line .blue {
     display: inline-block;
     width: 70px;
     height: 100%;
@@ -386,7 +390,7 @@
     background: #1e7ad9;
 }
 
-.description-comment .line .grey {
+.description .line .grey {
     display: inline-block;
     height: 100%;
     width: 680px;
@@ -394,10 +398,304 @@
     float: left;
 }
 
-.description-comment .show-picture {
+.description .show-picture {
     text-align: center;
 }
 
-.description-comment .show-picture img {
+.description .show-picture img {
     max-width: 100%;
+}
+
+.comment h3 {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 13px 10px;
+}
+
+.score {
+    margin: 30px 10px;
+}
+
+span.score-number {
+    color: darkorange;
+    font-size: 35px;
+}
+
+.score-number + span {
+    font-size: 15px;
+}
+
+p.review {
+    display: inline-block;
+    width: 450px;
+    color: #fff;
+    background: #aaa;
+    margin-left: 10px;
+    vertical-align: top;
+    position: relative;
+}
+
+p.review span {
+    margin: 0 23px;
+}
+
+p.summary {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.comment .result {
+    display: inline-block;
+    position: relative;
+    top: 13px;
+    width: 80px;
+}
+
+p.review span.number {
+    position: absolute;
+    top: -25px;
+    right: 5px;
+    background: #aaa;
+    padding: 0px 3px;
+    margin: 0;
+}
+
+p.review span.number span {
+    height: 0px;
+    position: absolute;
+    width: 0px;
+    bottom: -4px;
+    left: 50%;
+    margin: 0;
+    margin-left: -3px;
+    border-top: solid 5px #aaa;
+    border-left: solid 5px rgba(0, 0, 0, 0);
+    border-right: solid 5px rgba(0, 0, 0, 0);
+}
+
+.comment-tab {
+    background: #eee;
+    color: #333;
+    float: left;
+    width: 100%;
+    /* height: 31px; */
+    line-height: 30px;
+}
+
+.comment-tab ul {
+    display: inline-block;
+}
+
+.comment-tab li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.comment-tab ul.review {
+    float: left;
+}
+
+.comment-tab ul.sort {
+    float: right;
+    margin-right: 20px;
+}
+
+.comment-tab .review li {
+    margin: 0 10px;
+}
+
+.review li.active {
+    border-bottom: 2px solid #1d7ad9;
+}
+
+.user-comments {
+    float: left;
+}
+
+.user-comments dl {
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-top: 20px;
+}
+
+.user-comments dt {
+    float: left;
+    text-align: center;
+    margin-right: 65px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.user-comments dd {
+    float: left;
+    width: 590px;
+    position: relative;
+}
+
+dd .stars {
+    margin-bottom: 10px;
+}
+
+dd .stars span.star {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url("../img/icon/star2.jpg");
+}
+
+p.stars span.user-score, p.stars span.level {
+    color: #333;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+p.comment-content {
+    line-height: 18px;
+}
+
+.user-comments time {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.action {
+    margin-top: 10px;
+}
+
+.action span {
+    cursor: pointer;
+    color: #2988de;
+    margin-right: 10px;
+}
+
+.pages {
+    text-align: right;
+}
+
+.pages p {
+    display: inline-block;
+}
+
+.page-num {
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.page-num a {
+    text-decoration: none;
+    color: #666;
+    border: 1px solid #ccc;
+    padding: 2px 5px;
+    margin: 0 3px;
+}
+
+.page-num a.current {
+    background: #ddd;
+    color: red;
+}
+
+.pages input[type=text] {
+    width: 20px;
+}
+
+.pages input[type=button] {
+    border: none;
+    background: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.advisory {
+    border: none;
+}
+
+.advisory h3 {
+    vertical-align: bottom;
+    font-size: 13px;
+    width: 130px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: #1d7ad9;
+    display: inline-block;
+    /* padding: 10px 0; */
+    border: 1px solid #1d7ad9;
+    border-bottom: none;
+}
+
+.advisory .title-bar a {
+    width: 653px;
+    display: inline-block;
+    text-align: right;
+    color: #1d7ad9;
+    /* padding-right: 10px; */
+    /* margin-right: 10px; */
+    vertical-align: bottom;
+    border-bottom: 1px solid #1d7ad9;
+}
+
+.advisory .title-bar {
+    width: 100%;
+    height: 40px;
+    vertical-align: bottom;
+}
+
+.advisory .advisory-content {
+    padding: 10px 20px;
+    border: 1px solid #1d7ad9;
+    border-top: none;
+}
+
+.advisory .advisory-content > p {
+    background: #eee;
+    padding: 10px 20px;
+}
+.user-advisory dl{
+    margin-top: 20px;
+}
+
+.user-advisory dl dt {
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+    vertical-align: top;
+}
+
+.user-advisory dl dd {
+    display: inline-block;
+    width: 600px;
+    position: relative;
+}
+
+.user-advisory {
+    padding: 0px 0 20px 30px;
+}
+
+.user-advisory dl dd > span {
+    color: #333;
+    font-weight: bold;
+}
+
+.user-advisory dl dd > p {
+    line-height: 20px;
+}
+
+.user-advisory dl dd .advisory-question {
+    margin-top: 10px;
+}
+
+.user-advisory dl dd .advisory-answer {
+    background: #eee;
+    padding: 20px 25px;
+    border-radius: 5px;
+    margin-top: 13px;
+}
+
+.user-advisory dl dd time {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
